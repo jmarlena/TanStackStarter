@@ -20,7 +20,7 @@ const prismaIndexBrowserPath = path.join(
 
 const startConfig = defineConfig({
   server: {
-    preset: 'vercel',
+    preset: 'netlify',
   },
   vite: {
     plugins: [tsconfigPaths({ projects: ['./tsconfig.json'] })],
